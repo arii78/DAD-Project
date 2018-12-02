@@ -1,0 +1,57 @@
+<?php
+//Initialise the session
+session_start();
+if (isset($_SESSION['cust_login']))
+{
+	//Destroy the whole session
+	$_SESSION = array();
+	session_destroy();
+}
+?>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>TMS</title>
+<link href="../css_login.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<center> 
+<p>&nbsp;</p>
+<div class="title">
+  <p>TAILOR MANAGEMENT:AN ONLINE SYSTEM</p>
+</div>
+<p>&nbsp;</p>
+<center>
+  <div id="login">
+  
+  <td><p>Login as:</p></td>
+        
+  
+    <p><a class="login" href="cust_login.html">Customer / </a><a class="login" href="../Staff/staff_login.html">Staff /</a>
+    <a class="login" href="../Admin/admin_login.html">Admin </a>
+    </p>
+  <form action="cust_login.php" method="post">
+    
+      <p>(For first time login, use password 1234)</p>
+      <center>
+      <input type="text" name="ic" id="ic" autocomplete="off" placeholder="Customer IC" required></center>
+      <center><input type="password" name="password" id="password" autocomplete="off" placeholder="Password" required></center>
+       
+
+  <button class="button" style="vertical-align:middle" type="submit">
+  <span>Sign In </span>
+    <button class="button2" style="vertical-align:middle" type="submit">
+    <span><a href="cust_forgotpassword.html">Forgot Password?</a></span>
+    </button>
+    <p>&nbsp;</p>
+   
+    </form>
+  </div>
+</center>
+
+
+</body>
+</html>
+
+

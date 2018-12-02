@@ -1,0 +1,102 @@
+#inprogress
+{
+	background-color:#F0DF75;
+	 width: 230px;
+    border: ;
+    padding: 20px;
+    margin: 20px;
+	height:100px;
+	font-size:45px;
+	float:right;
+	text-align:left;
+	color:black;
+	
+}
+
+p.tajuk { 
+border-radius:8px;
+background-color:;
+font-size:18px;
+padding:px;
+width:80%;
+margin:1px;
+}
+
+
+
+#complete
+{
+	background-color:#75D2F0;
+	 width: 230px;
+    border: ;
+    padding: 20px;
+    margin: 20px;
+	height:100px;
+	font-size:45px;
+	float:right;
+	text-align:left;
+	color:black;
+	clear:right;
+	
+}
+
+p.tajuk2 { 
+border-radius:8px;
+background-color:;
+font-size:18px;
+padding:px;
+width:80%;
+margin:1px;
+}
+
+
+#ready
+{
+	background-color:#F786A3;
+	 width: 230px;
+    border: ;
+    padding: 20px;
+    margin: 20px;
+	height:100px;
+	font-size:45px;
+	float:right;
+	text-align:left;
+	color:black;
+	clear:right;
+	
+}
+
+p.tajuk3 { 
+border-radius:8px;
+background-color:;
+font-size:18px;
+padding:px;
+width:80%;
+margin:1px;
+}
+
+
+#collected
+{
+	background-color:#86F7A5;
+	 width: 230px;
+    border: ;
+    padding: 20px;
+    margin: 20px;
+	height:100px;
+	font-size:45px;
+	float:right;
+	text-align:left;
+	color:black;
+	clear:right;
+	
+}
+
+p.tajuk4 { 
+border-radius:8px;
+background-color:;
+font-size:18px;
+padding:px;
+width:80%;
+margin:1px;
+}

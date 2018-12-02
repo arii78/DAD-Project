@@ -1,0 +1,47 @@
+/*table {
+	border:6px solid black;
+	border-collapse: separate;
+	width:80%;
+	color:#;
+	background-color:#ad0556;
+}
+
+th {
+	height:50px;
+	border-bottom: 3px solid black;
+	background-color:black;
+	
+}
+
+td {
+	height:30px;
+	text-align:center;
+	border-bottom: 1px solid black;
+}
+
+tr:hover{background-color:#ad0556}
+*/
+
+table {
+    border-collapse: collapse;
+	border:1px solid #CC3366;
+	width:90%;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+
+}
+
+th {
+	height:50px;
+	border-bottom: 1px solid #CC3366;
+	background-color:#F99;
+	
+}
+
+td {
+	height:25px;
+	text-align:center;
+	border-bottom: 1px solid #CC3366;
+}
+
+tr:hover{background-color:#9CC;}
+

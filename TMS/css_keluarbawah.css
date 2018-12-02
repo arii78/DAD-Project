@@ -1,0 +1,38 @@
+/* Style the dropdown button */
+.dropdown-btn {
+  padding: 8px 8px 8px 32px;
+  text-decoration:none;
+  font-size: 19px;
+  color: #818181;
+  display: block;
+  border: none;
+  background: none;
+  width:250px;
+  text-align:left;
+  cursor: text;
+  outline: none;
+}
+
+/* On mouse-over */
+.dropdown-btn:hover {
+  color: #f1f1f1;
+}
+
+/* Add an active class to the active dropdown button */
+.active {
+  background-color:#111;
+  color: white;
+}
+
+/* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+.dropdown-container {
+  display: none;
+  background-color: #262626;
+  padding-left: 15px;
+}
+
+/* Optional: Style the caret down icon */
+.fa-caret-down {
+  float:none;
+  padding-right: 40px;
+}
